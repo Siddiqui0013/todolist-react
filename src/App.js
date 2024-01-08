@@ -6,7 +6,6 @@ import Note from "./Components/Note"
 import AddTodo from "./Components/AddTodo"
 import { useState } from "react"
 // import Demo from "./Components/Demo"
-// import Demo2 from "./Components/Demo2"
 // const createtodo = (todo) => {
 // 	return (
 // 		<Note
@@ -21,7 +20,7 @@ function App() {
 
 	function addNote(note) {
 		setTodos((item) => {
-			return [...item, note]
+			return [...item, note]  
 		})
 		console.log(note)
 	}
