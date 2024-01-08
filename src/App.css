@@ -1,0 +1,95 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 30px;
+	background-color: burlywood;
+	padding: 10px;
+	/* border-bottom: 2px 2px solid black; */
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.btn {
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 24px;
+	cursor: pointer;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	margin: 5px;
+	text-align: center;
+	width: 99%;
+}
+.todo {
+	background-color: blue;
+	color: white;
+	display: inline-block;
+	min-width: 200px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.todo h1 {
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.todo p {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.addTodo {
+	position: relative;
+	left: 40%;
+	width: 300px;
+	height: 120px;
+	margin: 10px;
+	background-color: burlywood;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+.addTodo input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	padding: 10px;
+	font-size: 17px;
+	font-family: cursive;
+	margin: 5px 0;
+	box-sizing: border-box;
+}
+.addTodo input::placeholder {
+	color: black;
+	font-size: 17px;
+	font-family: cursive;
+	font-weight: 100;
+}
+.addTodo input:focus {
+	outline: none;
+}
+.addBtn {
+	background-color: blue;
+	color: white;
+	font-size: 20px;
+	float: right;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.rmBtn {
+	background-color: burlywood;
+	color: black;
+	font-size: 20px;
+	float: right;
+	border-radius: 50%;
+	cursor: pointer;
+}
