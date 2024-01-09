@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 export default function Note(props) {
 	const dltbtn = () => {
-		props.onDlt()
+		props.onDlt(props.id)
 	}
 
 	return (

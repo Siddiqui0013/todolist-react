@@ -1,4 +1,7 @@
-header {
+*{
+	font-family: cursive;
+
+}header {
 	display: flex;
 	justify-content: space-between;
 	font-size: 30px;
@@ -23,8 +26,8 @@ footer {
 	width: 99%;
 }
 .todo {
-	background-color: blue;
-	color: white;
+	background-color: burlywood;
+	color: black;
 	display: inline-block;
 	min-width: 200px;
 	padding: 10px;
@@ -64,7 +67,6 @@ footer {
 	background: transparent;
 	padding: 10px;
 	font-size: 17px;
-	font-family: cursive;
 	margin: 5px 0;
 	box-sizing: border-box;
 }
@@ -86,8 +88,8 @@ footer {
 	cursor: pointer;
 }
 .rmBtn {
-	background-color: burlywood;
-	color: black;
+	background-color: blue;
+	color: white;
 	font-size: 20px;
 	float: right;
 	border-radius: 50%;

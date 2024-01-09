@@ -19,6 +19,10 @@ export default function AddTodo(props) {
 
 	function submit(e) {
 		props.onAdd(note)
+		setnote({
+			title: "",
+			description: "",
+		})
 		e.preventDefault()
 	}
 
